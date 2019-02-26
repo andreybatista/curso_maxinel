@@ -1,6 +1,6 @@
 <?php
 //Declaro o usuario e senha senha registrado
-$usuario = array('id' => 'adm', 'password' => 'adm');
+$usuario = array('id' => 'adm', 'password' => '123');
 //Se o array recebido como [Post] for igual a variavel do usuario ja registrado{continue}     --    e se o array recebido como [Post] for igual a variavel da senha ja registrada {continue}
 if ($_POST['aluno'] == $usuario['id'] && $_POST['senha'] == $usuario['password']) {
 	header('Location: http://localhost/maxnivel/curso/logado.php');
